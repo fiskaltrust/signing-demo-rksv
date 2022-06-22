@@ -15,7 +15,7 @@ The RKSV.Sign API can be used both via SOAP and REST communication - both ways a
 Before proceeding, a Cashbox - which will be used to provide authentication credentials - needs to be created. This can be done via the following API call:
 
 ```
-POST https://helipad-sandbox.fiskaltrust.cloud/configuration
+POST https://helipad-sandbox.fiskaltrust.cloud/api/configuration
 Headers:
 accountid: <your-account-id>
 accesstoken: <your-account-accesstoken>
