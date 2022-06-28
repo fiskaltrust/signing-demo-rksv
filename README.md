@@ -21,23 +21,23 @@ accountid: <your-account-id>
 accesstoken: <your-account-accesstoken>
 
 Body:
-{
-    "ftCashBoxId": "|[cashbox_id]|",
-    "ftSignaturCreationDevices": [
+"{
+    \"ftCashBoxId\": \"|[cashbox_id]|\",
+    \"ftSignaturCreationDevices\": [
         {
-            "Id": "|[scu0_id]|",
-            "Package": "fiskaltrust.RKSVSign",
-            "Configuration": {
-                "CompanyName": "<Name of the PosOperator company>",
-                "CompanyEmail": "<Email of the PosOperator company>",
-                "TaxId": "<Tax ID of the PosOperator company>",
-                "VatId": "<Vat ID of the PosOperator company>",
+            \"Id\": \"|[scu0_id]|\",
+            \"Package\": \"fiskaltrust.RKSVSign\",
+            \"Configuration\": {
+                \"CompanyName\": \"<Name of the PosOperator company>\",
+                \"CompanyEmail\": \"<Email of the PosOperator company>\",
+                \"TaxId\": \"<Tax ID of the PosOperator company>\",
+                \"VatId\": \"<Vat ID of the PosOperator company>\",
             },
-            "Url": []
+            \"Url\": []
         }
     ],
-    "ftQueues": []
-}
+    \"ftQueues\": []
+}"
 ```
 
 _Account ID_ and _account access token_ can be obtained in the Portal's [account overview area](https://portal-sandbox.fiskaltrust.at/AccountProfile).
