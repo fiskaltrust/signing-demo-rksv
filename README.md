@@ -50,7 +50,7 @@ The response to this request will contain the _cashbox ID_ and _cashbox access t
 ### Running the Demo
 We recommend using Visual Studio (which is also available for free) to run this demo - just replace cashbox ID and access token, and start the application.
 
-In case VS should not be used, please refer to [this file](TODO_add_link) to see the REST requests.
+In case VS should not be used, please refer to [this file](dotnet/fiskaltrust.RksvSign.Demo.Rest/RestRksvClient.cs) to see the REST requests.
 
 ## Contributions
 We welcome all kinds of contributions and feedback, e.g. via Issues or Pull Requests. 
